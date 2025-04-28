@@ -34,13 +34,16 @@ class CustomerUpdateRequest extends FormRequest
         ];
     }
 
-    public function after(Validator $validator)
+    /**
+     * Get the error messages for the defined validation rules.
+     *
+     * @return array<string, string>
+     */
+    public function messages(): array
     {
-        if($validator->fails()){
-            throw new HttpResponseException(response()->json([
-                'success' => false,
-                'errors' => $validator->errors()
-            ], 422));
-        }
+        return [
+            'state_id.required' => 'O campo estado é obrigatório.',
+            'city_id.required' => 'O campo cidade é obrigatório.',
+        ];
     }
 }

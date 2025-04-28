@@ -55,10 +55,18 @@ class CustomerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, CustomerUpdateRequest $customer)
+    public function update(CustomerUpdateRequest $request, Customer $customer)
     {
-        $customer = $customer->update($request->all());
+        $customer->cpf = $request->cpf;
+        $customer->name = $request->name;
+        $customer->birthdate = $request->birthdate;
+        $customer->gender = $request->gender;
+        $customer->address_street = $request->address_street;
+        $customer->state_id = $request->state_id;
+        $customer->city_id = $request->city_id;
 
+        $customer->save();
+        
         return response()->json($customer);
     }
 

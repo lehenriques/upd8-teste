@@ -3,6 +3,7 @@
 @section('content')
 <div class="col-span-12 mx-2 my-4 border-2 border-black rounded-2xl p-2 mb-4">
     <h2 class="mb-4 text-blue-800 font-bold">Editar Clientes</h2>
+    <div id="errorMsg"></div>
     <div class="grid grid-cols-4 mb-4">
         <div>
             <label for="cpf" class="font-bold">CPF: </label>
@@ -68,8 +69,8 @@
     </div>
     <div class="grid grid-cols-4 mb-2">
         <div class="text-right col-start-4">
-            <input type="button" id="search" value="Pesquisar" onclick="search()" class="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-800">
-            <input type="button" id="clear" value="Limpar" onclick="clearSearch()" class="py-2 px-4 bg-gray-200 rounded hover:bg-gray-400 hover:text-white">
+            <input type="button" id="salve" value="Salvar" onclick="salve()" class="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-800">
+            <input type="button" id="clear" value="Limpar" onclick="clearForm()" class="py-2 px-4 bg-gray-200 rounded hover:bg-gray-400 hover:text-white">
         </div>
     </div>
     
@@ -99,6 +100,49 @@
         });
         table += '</tbody></table></div>'
         document.getElementById('representntes').innerHTML = table
+    }
+
+    function salve() {
+        let gender = document.querySelector('input[name="gender"]:checked');
+        let genderValue = null;
+
+        if (gender && typeof gender === 'object' && !Array.isArray(gender))
+            genderValue = gender.value
+
+        let data = {
+            id: <?php echo $customer->id; ?>,
+            cpf: document.getElementById('cpf').value,
+            name: document.getElementById('name').value,
+            birthdate: document.getElementById('birthdate').value,
+            gender: genderValue,
+            address_street: document.getElementById('address_street').value,
+            state_id: document.getElementById('state_id').value,
+            city_id: document.getElementById('city_id').value,
+        }
+        axios.patch('/api/customer/<?php echo $customer->id; ?>/update', data)
+            .then(res => {
+                document.getElementById("errorMsg").innerHTML = "Usuário atualizado com sucesso!";
+                document.getElementById("errorMsg").className = "text-green-600";
+            })
+            .catch(err => {
+                console.log(err)
+                document.getElementById("errorMsg").innerHTML = ''
+
+                if(err.hasOwnProperty('response')){
+                for (const [key, value] of Object.entries(err.response.data.errors)) {
+                    document.getElementById("errorMsg").innerHTML += value + "<br >";
+                }
+                if (err.response.data.success) {
+                    document.getElementById("errorMsg").className = "text-green-600";
+                } else {
+                    document.getElementById("errorMsg").className = "text-red-500";
+                }
+            }
+            });
+    }
+
+    function clearForm() {
+        location.reload();
     }
 </script>
 @stop
