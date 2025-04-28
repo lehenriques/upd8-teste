@@ -13,10 +13,9 @@ Route::get('/user', function (Request $request) {
 
 Route::get("customers", [CustomerController::class, 'index']);
 Route::post("customer/create", [CustomerController::class, 'store']);
-Route::put("customer/{customer}/update", [CustomerController::class, 'update']);
+Route::patch("customer/{customer}/update", [CustomerController::class, 'update']);
 Route::delete("customer/{customer}/delete", [CustomerController::class, 'destroy']);
 Route::get("customer/{customer}/representatives", [CustomerController::class, 'representatives']);
 Route::get("representatives/{city_id}", function (Request $request) {
-    $repres = Representative::with('city')->whereCityId($request->city_id)->get();
-    dd($repres, $request->city_id);
+    return response()->json(Representative::with('city')->whereCityId($request->city_id)->get());
 });
