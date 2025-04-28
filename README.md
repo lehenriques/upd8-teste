@@ -68,7 +68,8 @@ editar usuário se tiver algum representante aparece listado abaixo dos dados pa
 curl http://127.0.0.1:8000/api/customer/2/representatives
 ```
 ```sql
-SELECT * FROM customers as C LEFT JOIN representatives as R on C.city_id = R.city_id LEFT JOIN cities as CI ON R.city_id = CI.id WHERE C.id = 2;
+SELECT * FROM customers as C LEFT JOIN representatives as R on C.city_id = R.city_id
+LEFT JOIN cities as CI ON R.city_id = CI.id WHERE C.id = 2;
 ```
 
 2. Gerar um script SQL que retorne todos os representantes de uma determinada cidade.
