@@ -1,6 +1,6 @@
 # Projeto de teste
 
-## :computer: Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 - PHP  >=  8.2
 - Laravel framework 12
 - [Composer](https://getcomposer.org/download) (dependency manager)
@@ -9,7 +9,7 @@
 - PHP >= 8.2 or higher (you can download PHP [here](https://www.php.net/downloads)).
 - [Composer](https://getcomposer.org/download) (dependency manager).
 
-## :gear: Instalação
+## ⚙️ Instalação
 1. Clone o projeto.
 ```bash
 git clone https://github.com/lehenriques/upd8-teste.git
@@ -36,7 +36,7 @@ mv .env.exemple .env
 php artisan key:generate
 ```
 
-5. Configure o banco de dados de acordo com a sua realidade.
+6. Configure o banco de dados de acordo com a sua realidade.
 ```.env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1

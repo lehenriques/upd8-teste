@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Tempo de geração: 26/04/2025 às 04:30
+-- Tempo de geração: 28/04/2025 às 05:16
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -168,26 +168,26 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `cpf`, `gender`, `birthdate`, `address_street`, `state_id`, `city_id`, `created_at`, `updated_at`) VALUES
-(1, 'Regina Beltrão Duarte', '310.406.371-08', 'F', '2016-11-12', '19619-346, R. Gabi, 7353\nPorto Lorenzo - MT', 6, 17, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(2, 'Adriano Furtado', '422.616.965-40', 'M', '2016-02-21', '84851-254, Av. Arthur, 87\nSão Naomi do Norte - MG', 14, 42, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(3, 'André Escobar Rezende Neto', '552.961.112-57', 'M', '1997-05-26', '58707-425, Largo Roberto Paz, 63. Apto 677\nVila Rodrigo - AC', 14, 42, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(4, 'Sr. Deivid Rodrigues Neto', '800.540.853-65', 'F', '1984-04-13', '09937-333, Avenida Emiliano Vega, 6141. Bloco C\nVila Ivan - AP', 8, 22, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(5, 'Sr. Vitor Wesley Fontes', '239.076.214-09', 'M', '2023-08-24', '92513-894, Avenida Lutero, 4\nSanta Otávio do Sul - PI', 3, 9, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(6, 'Sra. Kamila da Silva', '438.423.045-10', 'F', '1996-10-17', '87354-049, Travessa Rangel, 853\nSão Catarina do Norte - SE', 23, 67, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(7, 'Dr. Eduardo Eric Meireles Sobrinho', '103.106.935-60', 'M', '1976-01-26', '04871-776, Avenida Kevin, 271. Bloco C\nJéssica do Leste - MS', 20, 60, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(8, 'Théo Andres Molina', '074.288.399-04', 'F', '2014-05-26', '87667-985, Av. Maitê, 6. F\nMarta do Norte - TO', 24, 72, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(9, 'Sra. Mia Serna Filho', '380.624.476-69', 'F', '2022-11-17', '67936-890, Largo Romero, 8\nSanta Kevin do Norte - GO', 22, 66, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(10, 'Dr. Beatriz Mariana Oliveira', '555.098.822-47', 'F', '2004-12-24', '00867-049, Largo Carlos, 201\nPaola do Leste - PR', 25, 74, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(11, 'Srta. Talita Santos Sobrinho', '281.808.571-31', 'M', '1984-08-08', '46072-271, Travessa David Reis, 67264\nInácio do Norte - RJ', 14, 42, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(12, 'Bruna Mariana Molina', '718.232.569-10', 'M', '2010-09-11', '34444-820, Rua Sandoval, 87. 361º Andar\nBatista d\'Oeste - AP', 3, 8, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(13, 'Milena Cruz Rocha Filho', '130.636.292-00', 'F', '2018-12-24', '66890-800, Largo Deverso, 1. Apto 0\nSanta Emerson do Sul - BA', 13, 39, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(14, 'Wesley Juan Duarte', '841.870.436-59', 'M', '2015-06-15', '08229-182, Avenida Pedrosa, 863\nCíntia do Leste - AL', 15, 43, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(15, 'Hugo Zamana', '423.181.866-50', 'F', '1972-05-08', '30705-326, Rua Fonseca, 80128\nSanta Nicolas do Norte - AP', 27, 79, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(16, 'Srta. Regina Daniela Ortega', '842.117.288-30', 'M', '2023-01-15', '98662-780, R. Wilson Carvalho, 54990\nVila Fabiano - PI', 3, 9, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(17, 'Gisele Deverso Branco Neto', '684.861.481-54', 'F', '1987-07-27', '26710-262, R. Ferreira, 64506. Bloco B\nPorto Thalissa - PR', 5, 13, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(18, 'Ingrid Talita Dominato Jr.', '087.913.207-80', 'M', '1974-05-06', '13265-224, Travessa Manuela Amaral, 51000\nAlcantara do Sul - MS', 14, 40, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(19, 'Pietra Salgado Filho', '165.420.887-68', 'M', '2019-08-13', '91019-375, R. Quintana, 569. 17º Andar\nDeivid d\'Oeste - TO', 22, 64, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(20, 'Tessália Josefina Pena', '382.047.154-55', 'F', '1975-06-28', '29948-234, Largo Horácio Furtado, 2642. Bc. 7 Ap. 12\nPorto Cristiano - PR', 25, 74, '2025-04-26 05:28:01', '2025-04-26 05:28:01');
+(1, 'Srta. Fabiana Benites Reis', '290.111.403-20', 'M', '1986-08-19', '70803-474, Av. Roberta Rosa, 17\nZiraldo do Norte - RO', 4, 12, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(2, 'Cléber Carmona', '365.834.241-26', 'M', '1977-08-29', '51153-926, Rua Ferreira, 9470. Anexo\nSanta Gael do Leste - PB', 17, 49, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(3, 'Sra. Amanda Prado Sales', '640.895.057-47', 'F', '2010-02-21', '44462-160, Rua Ohana, 5470\nSanta Emerson - SC', 15, 45, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(4, 'Srta. Eva Yasmin Correia Filho', '493.714.287-91', 'F', '1991-10-16', '78720-382, Av. Analu Sales, 99. 816º Andar\nSimone d\'Oeste - MA', 8, 23, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(5, 'Tâmara Delvalle Saito', '277.824.948-69', 'M', '2018-03-28', '39623-362, Avenida Casanova, 7\nSanta Murilo do Leste - CE', 14, 40, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(6, 'Júlia Queirós Jr.', '347.787.953-85', 'F', '1982-09-24', '02973-486, R. Francisco, 441\nNádia do Norte - PE', 11, 33, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(7, 'Wagner Molina Sepúlveda Jr.', '144.600.594-10', 'M', '1983-05-28', '58260-006, Avenida Mário Amaral, 304\nÍtalo d\'Oeste - PB', 5, 15, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(8, 'Dr. Heitor Ferraz Bonilha Neto', '825.730.123-01', 'M', '2007-04-19', '70611-062, Avenida Rogério, 28. Bc. 8 Ap. 13\nSalas d\'Oeste - MT', 6, 18, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(9, 'Beatriz Flores Valdez', '757.880.186-41', 'M', '1999-09-02', '49715-494, Rua Afonso, 927\nHugo d\'Oeste - MA', 7, 20, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(10, 'Alan D\'ávila Verdugo Filho', '560.767.173-94', 'F', '2002-04-11', '21658-462, Travessa Jácomo, 9227\nSão Martinho - AP', 13, 38, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(11, 'Wilson de Arruda Vasques Jr.', '792.161.008-00', 'F', '2006-05-31', '32717-104, Rua Isabella Marinho, 21\nVila Pérola - BA', 4, 12, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(12, 'Regina Lourenço Matos Jr.', '445.472.473-31', 'M', '2014-11-14', '06694-539, Rua Thiago, 8936. F\nSanta Amélia do Sul - AP', 22, 64, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(13, 'Srta. Catarina Deverso Filho', '670.272.265-61', 'M', '2002-04-25', '19784-371, R. Vicente de Arruda, 6451\nCamacho do Sul - PA', 27, 79, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(14, 'Srta. Ivana Ramos Aragão', '877.942.047-80', 'M', '1976-02-25', '06386-420, Avenida Caldeira, 25498\nMartines do Norte - PR', 8, 22, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(15, 'Michael Leal Valentin Filho', '658.924.238-08', 'F', '2011-07-26', '40742-060, Av. Dirce, 66\nSão Eduardo d\'Oeste - MT', 11, 31, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(16, 'Christopher Rico Marinho Neto', '693.161.045-72', 'F', '2007-01-18', '19894-302, Avenida Jonas, 674\nOhana do Norte - PB', 23, 67, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(17, 'Stefany Carvalho Pena Jr.', '442.578.450-23', 'M', '1970-04-20', '31824-334, Travessa Felipe Barros, 79764. Apto 640\nSanta Natal do Leste - GO', 21, 63, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(18, 'Sra. Nathalia Ketlin Furtado', '137.441.595-23', 'M', '1999-01-28', '77718-114, Rua Alonso, 5\nIsabel do Norte - DF', 22, 65, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(19, 'Olívia Colaço', '047.866.636-54', 'M', '2008-10-01', '52824-357, R. Pablo, 9066\nMarés do Sul - RJ', 4, 12, '2025-04-28 04:57:02', '2025-04-28 04:57:02'),
+(20, 'Sr. Yuri Garcia', '918.387.010-52', 'F', '1970-05-03', '72352-553, Av. Maldonado, 3391\nDelgado do Sul - MA', 14, 40, '2025-04-28 04:57:02', '2025-04-28 04:57:02');
 
 -- --------------------------------------------------------
 
@@ -257,13 +257,14 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(15, '0001_01_01_000000_create_users_table', 1),
-(16, '0001_01_01_000001_create_cache_table', 1),
-(17, '0001_01_01_000002_create_jobs_table', 1),
-(18, '2025_04_26_014730_create_states_table', 1),
-(19, '2025_04_26_014738_create_cities_table', 1),
-(20, '2025_04_26_014753_create_customers_table', 1),
-(21, '2025_04_26_014802_create_representatives_table', 1);
+(23, '0001_01_01_000000_create_users_table', 1),
+(24, '0001_01_01_000001_create_cache_table', 1),
+(25, '0001_01_01_000002_create_jobs_table', 1),
+(26, '2025_04_26_014730_create_states_table', 1),
+(27, '2025_04_26_014738_create_cities_table', 1),
+(28, '2025_04_26_014753_create_customers_table', 1),
+(29, '2025_04_26_014802_create_representatives_table', 1),
+(30, '2025_04_26_025145_create_personal_access_tokens_table', 1);
 
 -- --------------------------------------------------------
 
@@ -275,6 +276,25 @@ CREATE TABLE `password_reset_tokens` (
   `email` varchar(255) NOT NULL,
   `token` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `personal_access_tokens`
+--
+
+CREATE TABLE `personal_access_tokens` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `tokenable_type` varchar(255) NOT NULL,
+  `tokenable_id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `token` varchar(64) NOT NULL,
+  `abilities` text DEFAULT NULL,
+  `last_used_at` timestamp NULL DEFAULT NULL,
+  `expires_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
@@ -296,16 +316,106 @@ CREATE TABLE `representatives` (
 --
 
 INSERT INTO `representatives` (`id`, `name`, `city_id`, `created_at`, `updated_at`) VALUES
-(1, 'Dr. Madalena Benez Medina', 13, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(2, 'Mia Julieta Tamoio Neto', 54, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(3, 'Gabi Mendonça D\'ávila Neto', 62, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(4, 'Fábio Carvalho Jr.', 61, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(5, 'Danielle Melina Delatorre Filho', 70, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(6, 'Sra. Regina Pena Quintana Filho', 9, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(7, 'Dr. Marina Paz Jr.', 6, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(8, 'Igor Soto Tamoio Filho', 69, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(9, 'Sr. Eduardo Estrada Madeira', 28, '2025-04-26 05:28:01', '2025-04-26 05:28:01'),
-(10, 'Denis Pena', 45, '2025-04-26 05:28:01', '2025-04-26 05:28:01');
+(1, 'Sr. Gael Quintana Saito Jr.', 16, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(2, 'Dr. Sebastião Dener Madeira Sobrinho', 32, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(3, 'Ketlin Sarah Campos Neto', 19, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(4, 'Emilly Maia Neto', 3, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(5, 'Srta. Lorena Andréia das Dores', 49, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(6, 'Sra. Mia Rico Casanova Sobrinho', 46, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(7, 'Jean Padrão Verdugo Neto', 54, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(8, 'Sr. Horácio Ortega', 20, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(9, 'Arthur Miguel Garcia Neto', 24, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(10, 'Srta. Helena Matias Pacheco', 49, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(11, 'Dr. Rafaela Carolina Cortês Filho', 32, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(12, 'Noelí Brito Rios', 25, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(13, 'Regina Neves Carvalho', 10, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(14, 'Sr. Luiz Mendonça Balestero', 63, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(15, 'Allan Batista Barros', 43, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(16, 'Sra. Maria Rios', 72, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(17, 'Dr. Horácio Vasques Pacheco Jr.', 25, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(18, 'Pablo Ian Medina Filho', 44, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(19, 'Dr. Luzia Raquel Matias Jr.', 24, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(20, 'Srta. Eunice Delatorre Sobrinho', 11, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(21, 'Daniel Burgos', 58, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(22, 'Moisés Balestero Rodrigues Filho', 56, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(23, 'Sr. Tomás Leandro Toledo', 57, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(24, 'Sr. Adriano Medina Filho', 33, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(25, 'Diogo Domingues Duarte', 14, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(26, 'Dr. Gabrielle Zamana Galvão', 45, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(27, 'Dr. Maraisa Souza Vila', 6, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(28, 'Malu Padilha Ferminiano Sobrinho', 44, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(29, 'Dr. Lorena Jasmin Chaves Filho', 58, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(30, 'Leo Guerra Furtado Sobrinho', 8, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(31, 'Jennifer Ávila Verdugo', 1, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(32, 'Henrique Dominato Assunção', 19, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(33, 'Sra. Tessália Campos', 53, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(34, 'Dr. Cristóvão Santiago', 33, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(35, 'Karen Marés', 74, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(36, 'Sophia Raysa Medina Sobrinho', 22, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(37, 'Dr. Emília Velasques', 50, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(38, 'Dr. Diana Escobar', 45, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(39, 'Sr. Gian Benites Torres Filho', 34, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(40, 'Kevin Lovato Jr.', 59, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(41, 'Sr. Matheus Esteves Reis Sobrinho', 79, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(42, 'Dr. Dayane Tainara Marinho', 45, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(43, 'Ziraldo Casanova Neto', 14, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(44, 'Dr. Richard Valentin Rangel Neto', 81, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(45, 'Mel Lívia Solano', 32, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(46, 'Dr. Flor Aranda Mendes Neto', 21, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(47, 'Caroline Reis Serna Jr.', 62, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(48, 'Dr. Cristóvão Bittencourt', 77, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(49, 'Emília Feliciano Zamana', 63, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(50, 'Josué Rocha Sobrinho', 43, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(51, 'Sr. Kléber Mascarenhas Marinho', 41, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(52, 'Sofia Serra Sobrinho', 58, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(53, 'Alice Lovato Santana', 2, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(54, 'Benedito Marinho Filho', 76, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(55, 'Yohanna Leon Soto', 17, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(56, 'Dr. Luciano Burgos Filho', 31, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(57, 'Dr. Joaquin Escobar Galhardo', 5, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(58, 'Sr. Marco de Aguiar', 57, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(59, 'Rogério Murilo Montenegro Neto', 33, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(60, 'Sr. Danilo Henrique Sandoval', 10, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(61, 'Sr. Natal Velasques Paes Sobrinho', 60, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(62, 'Srta. Stella Paloma Santos', 6, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(63, 'Srta. Ivana Franco Marin Jr.', 42, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(64, 'Dr. Carolina Fidalgo Filho', 54, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(65, 'Sheila Beatriz Cordeiro', 4, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(66, 'Dr. Emerson Mauro Sepúlveda', 46, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(67, 'Dr. Flávio das Dores de Freitas Filho', 55, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(68, 'Sra. Renata Galvão Sobrinho', 65, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(69, 'Demian Quintana Faria', 57, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(70, 'Dr. Nicole Alana da Rosa', 48, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(71, 'Dr. Erik Beltrão Lovato', 15, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(72, 'Adriano Alan Caldeira', 54, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(73, 'Dr. Fabrício Mascarenhas', 12, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(74, 'Mari Fonseca Alves Filho', 64, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(75, 'Fábio Casanova', 53, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(76, 'Sra. Taís Sarah Carvalho', 1, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(77, 'Sra. Roberta Fonseca Verdugo Sobrinho', 11, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(78, 'Noa Serrano Filho', 13, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(79, 'Willian Henrique Montenegro', 8, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(80, 'Liz Martines Marés Sobrinho', 49, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(81, 'Dr. Emily Angélica Delgado Jr.', 13, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(82, 'Sra. Talita Lívia Pacheco', 16, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(83, 'Dr. Raquel de Souza', 39, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(84, 'Sandro Willian da Silva Filho', 16, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(85, 'Paulina Gonçalves Serra', 6, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(86, 'Kamila Pontes', 11, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(87, 'Srta. Daniella Barros Gonçalves', 73, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(88, 'Lucas Benites Fontes', 64, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(89, 'Valentin Eric Meireles Neto', 66, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(90, 'Cláudia Pena Filho', 10, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(91, 'Sr. Leo da Cruz Gomes Neto', 40, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(92, 'Srta. Elis Delatorre Padrão', 70, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(93, 'Artur Vitor Arruda Jr.', 70, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(94, 'Lara Luana Rios Filho', 19, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(95, 'Srta. Eduarda Zambrano Neto', 34, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(96, 'Srta. Malu Leal', 47, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(97, 'Arthur Nero Azevedo', 15, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(98, 'Srta. Michelle de Freitas Vieira Jr.', 16, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(99, 'Danilo Jean Abreu Neto', 20, '2025-04-28 04:57:03', '2025-04-28 04:57:03'),
+(100, 'Jerônimo Benjamin Roque Sobrinho', 58, '2025-04-28 04:57:03', '2025-04-28 04:57:03');
 
 -- --------------------------------------------------------
 
@@ -321,6 +431,13 @@ CREATE TABLE `sessions` (
   `payload` longtext NOT NULL,
   `last_activity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Despejando dados para a tabela `sessions`
+--
+
+INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
+('S1cdrX0kKnuHyJXOwBVx3qXD8tYY0GjSQpf1Zyei', NULL, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiTHVORUYycGtRZWg4V3NVZVFobFo1UjNlVFNKOE1YVEZrMmpMUm1YVyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9lZGl0YXIvMiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1745807571);
 
 -- --------------------------------------------------------
 
@@ -448,6 +565,14 @@ ALTER TABLE `password_reset_tokens`
   ADD PRIMARY KEY (`email`);
 
 --
+-- Índices de tabela `personal_access_tokens`
+--
+ALTER TABLE `personal_access_tokens`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `personal_access_tokens_token_unique` (`token`),
+  ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`);
+
+--
 -- Índices de tabela `representatives`
 --
 ALTER TABLE `representatives`
@@ -507,13 +632,19 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT de tabela `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- AUTO_INCREMENT de tabela `personal_access_tokens`
+--
+ALTER TABLE `personal_access_tokens`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `representatives`
 --
 ALTER TABLE `representatives`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 
 --
 -- AUTO_INCREMENT de tabela `states`
