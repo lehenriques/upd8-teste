@@ -58,3 +58,18 @@ php artisan serve
 ```bash
 php artisan migrate --seed
 ```
+
+## 📌 Obrigatoriedades:
+
+1. Gerar um script SQL que a partir do ID do cliente, retorne todos os representantes que podem atendê-lo.
+no caso a url seria http://127.0.0.1:8000/api/customer/{customer}/representatives sendo visivel também no 
+editar usuário se tiver algum representante aparece listado abaixo dos dados para editar.
+```bash
+curl http://127.0.0.1:8000/api/customer/2/representatives
+```
+2. Gerar um script SQL que retorne todos os representantes de uma determinada cidade.
+```bash
+curl http://127.0.0.1:8000/api/representatives/{city_id}
+```
+3. isponibilizar um arquivo com o DDL da base completa.
+No projeto acesse a pasta database/schema/upd8.sql
