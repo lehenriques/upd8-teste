@@ -1,0 +1,1 @@
+<div class="col-span-12 copyright text-center">© Copyright 2025 :UPD8 </div>
